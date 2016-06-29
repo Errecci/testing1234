@@ -1,0 +1,101 @@
+@media (max-width: 1140px){ 
+	/*
+	.container {width: 970px;}
+	*/
+	h1 {font-size: 5.000em;}
+	.underline {
+		margin: 30px 0;
+		height: 18px;
+		width: 200px;
+	}
+	p {font-size: 1.4em;}
+}
+@media (max-width: 992px) {
+	/*
+	.container {width: 750px;}
+	*/
+	h1 {font-size: 3.500em;}
+	p {font-size: 1.4em;}
+	.home p {padding-left: 10%;}
+	.pdg-hgt {padding: 8em 0;}
+	.scopri {padding-left: 10%;}
+	.title-block {
+		bottom: 0;
+		top: auto;
+		transform: translate(0,-14px);
+		-webkit-transform: translate(0,-14px);
+		-moz-transform: translate(0,-14px);
+		-o-transform: translate(0,-14px);
+		-ms-transform: translate(0,-14px);		
+	}
+	.title-block h3 {font-size: 2.5em;}
+	.title-block .underline {
+		margin: 6px 0;
+		height: 6px;
+	}
+@media (max-width: 768px) {
+	/*
+	.container {width: 720px;}
+	.col-half-third {width: 50%}
+	*/
+	.home .plus > h1, .humansPage .plus > h1, .progettiPage .plus > h1, .serviziPage .plus > h1, .contattiPage .plus > h1 {font-size: 7.5em;}
+	.home .plus .underline, .humansPage .plus .underline, .progettiPage .plus .underline, .serviziPage .plus .underline, .contattiPage .plus .underline {
+		margin: 30px 0;
+		height: 15px;
+		width: 210px;
+	}
+	.progettiPage .plus > p, .serviziPage .plus > p, .contattiPage .plus > p {width: 70%;}
+	.home .plus > p, .humansPage .plus > p, .progettiPage .plus > p, .serviziPage .plus > p, .contattiPage .plus > p {font-size: 3em;}
+}
+@media (max-width: 667px) { 
+	/*
+	.container {width: auto;}
+	.col-half {width: 100%}
+	.col-half-third {width: 100%}
+	 */
+	.pdg-hgt {padding: 5em 0;}
+	.home .plus, .humansPage .plus, .progettiPage .plus, .serviziPage .plus, .contattiPage .plus {left: 30px;}
+	h1 {font-size: 5.5em;}
+	.scopri {padding-left: 30px;}
+	.home p {padding-left: 30px;padding-right: 30px;}
+	.home h1 {padding-left: 30px;padding-right: 30px;}
+	.home .plus > h1, .humansPage .plus > h1, .progettiPage .plus > h1, .serviziPage .plus > h1, .contattiPage .plus > h1 {
+		font-size: 5.5em;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.home .plus > p, .humansPage .plus > p, .progettiPage .plus > p, .serviziPage .plus > p, .contattiPage .plus > p {font-size: 2em;}
+	.home .underline {
+		margin: 20px 0 20px 30px;
+		height: 10px;
+		width: 130px;
+	}
+	.home .plus .underline, .humansPage .plus .underline, .progettiPage .plus .underline, .serviziPage .plus .underline, .contattiPage .plus .underline {
+		margin: 20px 0;
+		height: 10px;
+		width: 130px;
+		padding-left: 0px;
+	}
+	.home .plus > p, .humansPage .plus > p, .progettiPage .plus > p, .serviziPage .plus > p, .contattiPage .plus > p {font-size: 2em;}
+	#listaFiltri {display: none;}
+	.middletown {
+		position: relative;
+		top: auto;
+		z-index: 999;
+		padding-top: 3em;
+		padding-bottom: 3em;
+		transform: initial;
+		-webkit-transform: initial;
+		-moz-transform: initial;
+		-o-transform: initial;
+		-ms-transform: initial;
+	}
+
+}
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) { 
+	.pdg-hgt {padding: 10em 0;} /* ?!? */
+	.pdg-hgt-Top {padding-top: 10em;} /* ?!? */
+	.pdg-hgt-Bottom {padding-bottom: 10em;} /* ?!? */
+	.pdg-mid {padding: 6em 0;} /* ?!? */
+	.pdg-low {padding: 2em 0;} /* ?!? */	
+}
